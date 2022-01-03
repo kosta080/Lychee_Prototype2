@@ -15,12 +15,12 @@ C:/git/Lychee_Prototype2/Lychee Prototype VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55118
+55152
 Successfully changed project path to: C:/git/Lychee_Prototype2/Lychee Prototype VR
 C:/git/Lychee_Prototype2/Lychee Prototype VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.54 ms, found 19 plugins.
-Preloading 2 native plugins for Editor in 3.88 ms.
+Refreshing native plugins compatible for Editor in 100.81 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 4.93 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/git/Lychee_Prototype2/Lychee Prototype VR/Assets
@@ -39,37 +39,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001629 seconds.
+Registered in 0.002682 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.01 ms, found 19 plugins.
+Refreshing native plugins compatible for Editor in 48.84 ms, found 19 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.439 seconds
+- Completed reload, in  0.435 seconds
 Domain Reload Profiling:
-	ReloadAssembly (439ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (435ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (341ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (336ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (104ms)
+			SetupTypeCache (98ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (140ms)
+			SetupLoadedEditorAssemblies (139ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (62ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (60ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -77,10 +77,10 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015448 seconds.
+Registered in 0.025080 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.26 ms, found 19 plugins.
+Refreshing native plugins compatible for Editor in 47.29 ms, found 19 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -102,30 +102,30 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
+- Completed reload, in  0.897 seconds
 Domain Reload Profiling:
-	ReloadAssembly (910ms)
+	ReloadAssembly (898ms)
 		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (759ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (747ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
+			SetupTypeCache (201ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (333ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (180ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (174ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -133,14 +133,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 19 plugins.
+Refreshing native plugins compatible for Editor in 1.28 ms, found 19 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
 Unloading 2840 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.3 MB.
-System memory in use after: 113.5 MB.
+System memory in use before: 113.1 MB.
+System memory in use after: 113.3 MB.
 
 Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3259.
-Total: 2.881200 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.077100 ms MarkObjects: 2.517000 ms  DeleteObjects: 0.062700 ms)
+Total: 3.183800 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.124300 ms MarkObjects: 2.758000 ms  DeleteObjects: 0.068500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -155,25 +155,209 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c21883ff6f8f1c98f4475bb8155be6') in 0.015009 seconds 
-  Import took 0.018462 seconds .
+  path: Assets/Loft Office/PostFX_Kitchen.asset
+  artifactKey: Guid(a100a92b0f106b94e8e5730bd213fd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/PostFX_Kitchen.asset using Guid(a100a92b0f106b94e8e5730bd213fd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7291761057810e22152b657d9dc53de4') in 0.026037 seconds 
+  Import took 0.030029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.400466 seconds.
-  path: Assets/kitchen.prefab
-  artifactKey: Guid(282fce8c24b3c584589deedbd589ef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kitchen.prefab using Guid(282fce8c24b3c584589deedbd589ef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1e5bbd769372d2b904a6aca74e1881') in 0.499285 seconds 
-  Import took 0.511410 seconds .
+  Time since last request: 0.000191 seconds.
+  path: Assets/Loft Office/PostFX_Work_Space.asset
+  artifactKey: Guid(847af108fd99b1140baf8c880fc567a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/PostFX_Work_Space.asset using Guid(847af108fd99b1140baf8c880fc567a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009b40cd6a0ab1392b79862ccdda23c9') in 0.002966 seconds 
+  Import took 0.006697 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.088114 seconds.
+  Time since last request: 0.000160 seconds.
   path: Assets/Loft Office
-  artifactKey: Guid(7ce62981944021946a7632139c0e800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office using Guid(7ce62981944021946a7632139c0e800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc37d5f0003a95bd432844b2e1146b46') in 0.001956 seconds 
-  Import took 0.005627 seconds .
+  artifactKey: Guid(a73d4cc583837d14b9bd8f3b1578e9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office using Guid(a73d4cc583837d14b9bd8f3b1578e9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11700c054b2e6a841cdcea901cc21e72') in 0.002430 seconds 
+  Import took 0.005992 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Loft Office/PostFX_Cabinet.asset
+  artifactKey: Guid(a0e2b39568190964f8707721bf4370e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/PostFX_Cabinet.asset using Guid(a0e2b39568190964f8707721bf4370e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83990e6326e84ed5a6c418f7ab412a9') in 0.002939 seconds 
+  Import took 0.006380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.113561 seconds.
+  path: Assets/Loft Office/Kitchen
+  artifactKey: Guid(5880c319811d24b488ab9e9d1c521a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen using Guid(5880c319811d24b488ab9e9d1c521a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ec2d526adfeb7fa07b06d880f91d12') in 0.002526 seconds 
+  Import took 0.006888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081877 seconds.
+  path: Assets/Loft Office/Kitchen/LightingData.asset
+  artifactKey: Guid(45aaaa0d92081c346beb9a9d9fffc322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/LightingData.asset using Guid(45aaaa0d92081c346beb9a9d9fffc322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cdbd5a1871ddbae4d78f2b4e0260912') in 0.013474 seconds 
+  Import took 0.017806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Loft Office/Kitchen/Lightmap-0_comp_light.exr
+  artifactKey: Guid(2c4c2ffca2476724b97028b29d1cd02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/Lightmap-0_comp_light.exr using Guid(2c4c2ffca2476724b97028b29d1cd02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da7967ff0eae9449ee1d79b8f60ae16') in 0.090421 seconds 
+  Import took 0.094064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Loft Office/Kitchen/Lightmap-3_comp_light.exr
+  artifactKey: Guid(d4e2648b4a64b1447baed6b70c814199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/Lightmap-3_comp_light.exr using Guid(d4e2648b4a64b1447baed6b70c814199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc8329dae4a3d12432502463c531fd1') in 0.013999 seconds 
+  Import took 0.018882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Loft Office/Kitchen/Lightmap-1_comp_light.exr
+  artifactKey: Guid(8b09bd7fdff6c524eae1bcd7622ec919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/Lightmap-1_comp_light.exr using Guid(8b09bd7fdff6c524eae1bcd7622ec919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79073107faa6861adbd0c2fd1fa16e81') in 0.010460 seconds 
+  Import took 0.015623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Loft Office/Kitchen/Lightmap-3_comp_dir.png
+  artifactKey: Guid(72709e191fe3a584da5de05055d93ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/Lightmap-3_comp_dir.png using Guid(72709e191fe3a584da5de05055d93ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58f8544401cc1d1f36d68ac92831f80') in 0.051958 seconds 
+  Import took 0.056550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Loft Office/Kitchen/ReflectionProbe-1.exr
+  artifactKey: Guid(1acb8139ac1d3ec4fa1b43b12a153bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/ReflectionProbe-1.exr using Guid(1acb8139ac1d3ec4fa1b43b12a153bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1141c121d8d935b02e3f917655cb8021') in 0.046341 seconds 
+  Import took 0.050950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Loft Office/Kitchen/Lightmap-2_comp_light.exr
+  artifactKey: Guid(268be1165792ca64aad4d5bd023d2bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/Lightmap-2_comp_light.exr using Guid(268be1165792ca64aad4d5bd023d2bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd453d81191b0267773de994bf51624cc') in 0.012108 seconds 
+  Import took 0.016509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Loft Office/Kitchen/Lightmap-0_comp_dir.png
+  artifactKey: Guid(e85864db682729f4e8629f4108cde3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/Lightmap-0_comp_dir.png using Guid(e85864db682729f4e8629f4108cde3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49750f009b393024486510333e651da6') in 0.012455 seconds 
+  Import took 0.017353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Loft Office/Kitchen/Lightmap-2_comp_dir.png
+  artifactKey: Guid(5856b406a98022d438fce8a4a38dbd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/Lightmap-2_comp_dir.png using Guid(5856b406a98022d438fce8a4a38dbd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2365db3b5942a1f9b98cdf428ddef109') in 0.011274 seconds 
+  Import took 0.015434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Loft Office/Kitchen/Lightmap-1_comp_dir.png
+  artifactKey: Guid(d227637acad54ca4e9922672f1ce67e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/Lightmap-1_comp_dir.png using Guid(d227637acad54ca4e9922672f1ce67e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df1d160e6fb24dad468af9f27da30b1') in 0.015576 seconds 
+  Import took 0.019996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Loft Office/Kitchen/ReflectionProbe-0.exr
+  artifactKey: Guid(94f944348cf05994ea10d12e71a71169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen/ReflectionProbe-0.exr using Guid(94f944348cf05994ea10d12e71a71169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212f7a934b6da503f3b35281d48ab69d') in 0.013682 seconds 
+  Import took 0.018184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.352413 seconds.
+  path: Assets/Loft Office/Kitchen.unity
+  artifactKey: Guid(c5d3974864774074584c196d25458ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen.unity using Guid(c5d3974864774074584c196d25458ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a08d4a8d607604840f5e23b3eb4b22') in 0.003001 seconds 
+  Import took 0.006875 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\git\Lychee_Prototype2\Lychee Prototype VR\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\git\Lychee_Prototype2\Lychee Prototype VR\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (664ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.8 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3298.
+Total: 2.787000 ms (FindLiveObjects: 0.222800 ms CreateObjectMapping: 0.069800 ms MarkObjects: 2.474200 ms  DeleteObjects: 0.019300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
