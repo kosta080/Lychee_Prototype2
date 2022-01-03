@@ -15,12 +15,12 @@ C:/git/Lychee_Prototype2/Lychee Prototype VR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49558
+63218
 Successfully changed project path to: C:/git/Lychee_Prototype2/Lychee Prototype VR
 C:/git/Lychee_Prototype2/Lychee Prototype VR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 98.11 ms, found 19 plugins.
-Preloading 2 native plugins for Editor in 4.88 ms.
+Refreshing native plugins compatible for Editor in 75.77 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 3.81 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/git/Lychee_Prototype2/Lychee Prototype VR/Assets
@@ -39,37 +39,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002638 seconds.
+Registered in 0.001832 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.78 ms, found 19 plugins.
+Refreshing native plugins compatible for Editor in 48.39 ms, found 19 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.428 seconds
+- Completed reload, in  0.439 seconds
 Domain Reload Profiling:
-	ReloadAssembly (429ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (439ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (332ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (335ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
 			SetupLoadedEditorAssemblies (137ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (60ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (58ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -77,10 +77,10 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.023113 seconds.
+Registered in 0.014611 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.36 ms, found 19 plugins.
+Refreshing native plugins compatible for Editor in 46.83 ms, found 19 plugins.
 Preloading 2 native plugins for Editor in 0.12 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -102,29 +102,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
+- Completed reload, in  0.870 seconds
 Domain Reload Profiling:
-	ReloadAssembly (972ms)
-		BeginReloadAssembly (175ms)
+	ReloadAssembly (871ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (745ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (325ms)
+			SetupLoadedEditorAssemblies (320ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -133,14 +133,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 19 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 19 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
 Unloading 2840 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.9 MB.
-System memory in use after: 113.1 MB.
+System memory in use before: 113.1 MB.
+System memory in use after: 113.3 MB.
 
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3258.
-Total: 2.972900 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.623400 ms  DeleteObjects: 0.063300 ms)
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3259.
+Total: 2.964900 ms (FindLiveObjects: 0.240600 ms CreateObjectMapping: 0.077900 ms MarkObjects: 2.585000 ms  DeleteObjects: 0.060600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -155,801 +155,313 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Loft Office
-  artifactKey: Guid(7ce62981944021946a7632139c0e800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office using Guid(7ce62981944021946a7632139c0e800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27946369a482c8a2f148965b647c3d5e') in 0.005665 seconds 
-  Import took 0.008825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Loft Office/Kitchen.unity
-  artifactKey: Guid(c5d3974864774074584c196d25458ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Kitchen.unity using Guid(c5d3974864774074584c196d25458ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a08d4a8d607604840f5e23b3eb4b22') in 0.009628 seconds 
-  Import took 0.012748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.009335 seconds.
-  path: Assets/Loft Office/Prefabs
-  artifactKey: Guid(010f56758eb835644928ea17ce61e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs using Guid(010f56758eb835644928ea17ce61e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2094e66981c0b6a6ae8f4a1fb3f321') in 0.002531 seconds 
-  Import took 0.007821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.850843 seconds.
-  path: Assets/Loft Office/Prefabs/Cooking surface 1.prefab
-  artifactKey: Guid(2c0b67f8942eeb540b11ba4d24f8876b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Cooking surface 1.prefab using Guid(2c0b67f8942eeb540b11ba4d24f8876b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd9fc6564ab18d1adc0f2bf7c90200f') in 0.086256 seconds 
-  Import took 0.090285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_decor_6.prefab
-  artifactKey: Guid(16cf25c43d409b441937733e2f6269e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_decor_6.prefab using Guid(16cf25c43d409b441937733e2f6269e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbe1050b95931fa281677873ba9346c') in 0.008851 seconds 
-  Import took 0.012081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Loft Office/Prefabs/Table_lamp_2.prefab
-  artifactKey: Guid(b24de4dfeab05144dbfed76b037b3c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Table_lamp_2.prefab using Guid(b24de4dfeab05144dbfed76b037b3c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e57aef05c30f760f79b9c0a573aea0') in 0.019921 seconds 
-  Import took 0.023450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_decor_4_white.prefab
-  artifactKey: Guid(912757cfbb169b647890736c3744f93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_decor_4_white.prefab using Guid(912757cfbb169b647890736c3744f93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e08df370b4d8efdf0dcb4294e42f85') in 0.013164 seconds 
-  Import took 0.016370 seconds .
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(a5a9fbbe6ac04b6458bbc1273b6db0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(a5a9fbbe6ac04b6458bbc1273b6db0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c95e236b05418535b5258667f9637c') in 0.031023 seconds 
+  Import took 0.034855 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000207 seconds.
-  path: Assets/Loft Office/Prefabs/Floor_3x3m.prefab
-  artifactKey: Guid(6cd6537434f737849a8832d559731d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Floor_3x3m.prefab using Guid(6cd6537434f737849a8832d559731d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06b45f8eb401160a183d1edd88f14e7') in 0.113793 seconds 
-  Import took 0.117475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_table.prefab
-  artifactKey: Guid(8411accbbe9c34f4caef784d1c347472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_table.prefab using Guid(8411accbbe9c34f4caef784d1c347472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a632065d118bd3ead774f05d12b248') in 0.009750 seconds 
-  Import took 0.013127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_bottom_60cm.prefab
-  artifactKey: Guid(e9fea41f2576c2a488e09ba9a39d5433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_bottom_60cm.prefab using Guid(e9fea41f2576c2a488e09ba9a39d5433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecf47aede7c3d78920badc07c0990df') in 0.126638 seconds 
-  Import took 0.130178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Loft Office/Prefabs/Vase_1.prefab
-  artifactKey: Guid(2fedb687011a1ac44948d5c6253c052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Vase_1.prefab using Guid(2fedb687011a1ac44948d5c6253c052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f64b62059f83f859bf514b7361c7ae5') in 0.007261 seconds 
-  Import took 0.010227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_6mx40cm_Window.prefab
-  artifactKey: Guid(22189d4bb61c3a94ea953a25263b1407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_6mx40cm_Window.prefab using Guid(22189d4bb61c3a94ea953a25263b1407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ff6d03e57072a1bbb78c3691eee1ad') in 0.109928 seconds 
-  Import took 0.115274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Loft Office/Prefabs/Sofa_1.prefab
-  artifactKey: Guid(aee6f243be6e8f4458fadd14aa554e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Sofa_1.prefab using Guid(aee6f243be6e8f4458fadd14aa554e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e2469ec2cadf6e2f356aaea72d124d') in 0.050094 seconds 
-  Import took 0.056878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_3mx40cm_Window_2.prefab
-  artifactKey: Guid(4655ed8c0a3d0ab48992facc9badce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_3mx40cm_Window_2.prefab using Guid(4655ed8c0a3d0ab48992facc9badce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8ccc1a276d75a6964acedee51a90bd') in 0.039386 seconds 
-  Import took 0.045028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_3mx20cm_Door.prefab
-  artifactKey: Guid(902c1c66a860f8843a6fe2caeb4796de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_3mx20cm_Door.prefab using Guid(902c1c66a860f8843a6fe2caeb4796de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d58e4530904c2c2a7350b003beeedc') in 0.007220 seconds 
-  Import took 0.010572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_3mx40cm_Window.prefab
-  artifactKey: Guid(f322e40b972d5074facc42dde899b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_3mx40cm_Window.prefab using Guid(f322e40b972d5074facc42dde899b053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedbe46a32639608f9021ee85d51615d') in 0.033719 seconds 
-  Import took 0.040232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Loft Office/Prefabs/Keyboard.prefab
-  artifactKey: Guid(b6de35099aa63e740a307dcf354ce1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Keyboard.prefab using Guid(b6de35099aa63e740a307dcf354ce1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bf890bf6e1dacf3ec6605cba398f92') in 0.009618 seconds 
-  Import took 0.014525 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Loft Office/Prefabs/Sofa_1_ottoman.prefab
-  artifactKey: Guid(28e47360494225c408dfcaa86d9df713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Sofa_1_ottoman.prefab using Guid(28e47360494225c408dfcaa86d9df713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f557c054d66110ec280b44d4c6d1a86') in 0.040269 seconds 
-  Import took 0.047085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Loft Office/Prefabs/Shelf.prefab
-  artifactKey: Guid(1f9900245072561488530a546b0d6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Shelf.prefab using Guid(1f9900245072561488530a546b0d6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2122acf2dc8017a649046ce4b8ae6466') in 0.008724 seconds 
-  Import took 0.011992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Loft Office/Prefabs/Partition_2.prefab
-  artifactKey: Guid(12a418510d6209047b96298da15f69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Partition_2.prefab using Guid(12a418510d6209047b96298da15f69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d31b7bb099551c4b6394e29cc4f23f') in 0.152897 seconds 
-  Import took 0.156397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Loft Office/Prefabs/Vase_3.prefab
-  artifactKey: Guid(36dbf98d348a5954588f71fd32befeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Vase_3.prefab using Guid(36dbf98d348a5954588f71fd32befeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6688a2568efed8100936399e5dab115a') in 0.007872 seconds 
-  Import took 0.011009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_decor_7.prefab
-  artifactKey: Guid(d3c8124b1eec44a498733f38b383ad17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_decor_7.prefab using Guid(d3c8124b1eec44a498733f38b383ad17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0069dd91df197aa43671cda08b81779') in 0.008037 seconds 
-  Import took 0.011052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Loft Office/Prefabs/Milk_Bottle.prefab
-  artifactKey: Guid(c6d798df664597542af025278dba22e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Milk_Bottle.prefab using Guid(c6d798df664597542af025278dba22e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f55417238c3579c58030a3ac6e61829') in 0.009437 seconds 
-  Import took 0.013071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Loft Office/Prefabs/Mouse.prefab
-  artifactKey: Guid(226057188a9811e4d8e73dfa9c504391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Mouse.prefab using Guid(226057188a9811e4d8e73dfa9c504391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119c3a6865c3fb3538eb3cb6aab5dbc3') in 0.008469 seconds 
-  Import took 0.012638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Loft Office/Prefabs/Decor_04.prefab
-  artifactKey: Guid(897a552cf2f8df344a2bb8782f434642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Decor_04.prefab using Guid(897a552cf2f8df344a2bb8782f434642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c786c6ca6dc8bf02f2814096fc521ec') in 0.013183 seconds 
-  Import took 0.017472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Loft Office/Prefabs/Vase_2.prefab
-  artifactKey: Guid(f80fed2bb2bd64741b963aca6ad3c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Vase_2.prefab using Guid(f80fed2bb2bd64741b963aca6ad3c910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4394850861c765fa303bc3fcfebd9a0') in 0.124208 seconds 
-  Import took 0.129309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_1mx20cm_Right.prefab
-  artifactKey: Guid(7393d1a7a4b03404c8a8438ed862363b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_1mx20cm_Right.prefab using Guid(7393d1a7a4b03404c8a8438ed862363b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51670c33cfc2f37a6e3113a2bfb80e7') in 0.032020 seconds 
-  Import took 0.037403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_decor_2.prefab
-  artifactKey: Guid(348a3d35f0527ac4b86176ba3abb1ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_decor_2.prefab using Guid(348a3d35f0527ac4b86176ba3abb1ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3021e1ac0b310d9febe51885426395fc') in 0.009489 seconds 
-  Import took 0.013781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_decor_1.prefab
-  artifactKey: Guid(7d0296997a00c4842949c6c05543c026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_decor_1.prefab using Guid(7d0296997a00c4842949c6c05543c026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04ce443ddcfc2282da99a374bf47e13') in 0.008818 seconds 
-  Import took 0.012265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_bottom_sink_1m.prefab
-  artifactKey: Guid(8fafefe7a666a9f41a1095c72ec1605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_bottom_sink_1m.prefab using Guid(8fafefe7a666a9f41a1095c72ec1605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7866475cae3a1494d85989a5e32a98') in 0.012508 seconds 
-  Import took 0.015839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Loft Office/Prefabs/Table_Lamp.prefab
-  artifactKey: Guid(cb0876b2282de4744a47b5ab294205d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Table_Lamp.prefab using Guid(cb0876b2282de4744a47b5ab294205d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5f2f28fb0f7b5d88600f05bde31687') in 0.007716 seconds 
-  Import took 0.010809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_decor_3.prefab
-  artifactKey: Guid(a91c6eead27df82468711bbd7c99600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_decor_3.prefab using Guid(a91c6eead27df82468711bbd7c99600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7c5c7ca897f17475371d16c1e73c0a') in 0.008172 seconds 
-  Import took 0.011214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Loft Office/Prefabs/Table_3.prefab
-  artifactKey: Guid(f72d990a160154f41ae35942f679619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Table_3.prefab using Guid(f72d990a160154f41ae35942f679619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadda59a6c22bde7c8b35a1dff276d7f') in 0.008835 seconds 
-  Import took 0.012027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Loft Office/Prefabs/Stack_of_Books_1.prefab
-  artifactKey: Guid(5e56ef59624008344b4a0a94535105c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Stack_of_Books_1.prefab using Guid(5e56ef59624008344b4a0a94535105c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c47a3d92a1a8ff64e04a0b5ca6f71d') in 0.010513 seconds 
-  Import took 0.013938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_corner_60cm 1.prefab
-  artifactKey: Guid(e00558e5e4b5f304f8429c167d07f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_corner_60cm 1.prefab using Guid(e00558e5e4b5f304f8429c167d07f9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0882b9739bd3cf2123edc00829675641') in 0.016468 seconds 
-  Import took 0.020379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_bottom_1m.prefab
-  artifactKey: Guid(e1e4f20a20ad80c4f89f22f683c47aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_bottom_1m.prefab using Guid(e1e4f20a20ad80c4f89f22f683c47aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b393a2d9c23d35446906fb45266360') in 0.016341 seconds 
-  Import took 0.020462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_decor_5.prefab
-  artifactKey: Guid(a76b278b562257b49b7ba1afc1e90796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_decor_5.prefab using Guid(a76b278b562257b49b7ba1afc1e90796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf58b5e32382bf9d84fbf79b27e1e19') in 0.008952 seconds 
-  Import took 0.013681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Loft Office/Prefabs/Round_chair.prefab
-  artifactKey: Guid(ea4137bd2c8f2e842b3e61d62d82369a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Round_chair.prefab using Guid(ea4137bd2c8f2e842b3e61d62d82369a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c508370721c17e34d48b9bd71340e78f') in 0.012120 seconds 
-  Import took 0.016006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Loft Office/Prefabs/Partition 4.prefab
-  artifactKey: Guid(3a4256784c047bf41a1b7442e12a2ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Partition 4.prefab using Guid(3a4256784c047bf41a1b7442e12a2ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5502dbd58801c52b1daaf9bc30d38f') in 0.010374 seconds 
-  Import took 0.014353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Loft Office/Prefabs/Door_1.prefab
-  artifactKey: Guid(e5c226473c2a60945b28ffdd15e06a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Door_1.prefab using Guid(e5c226473c2a60945b28ffdd15e06a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c88ce9b7c8ed2c2e8f5df11184bca8') in 0.010638 seconds 
-  Import took 0.014718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Loft Office/Prefabs/Decor_1.prefab
-  artifactKey: Guid(7d17522e383377a4bbf64b61b73f7541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Decor_1.prefab using Guid(7d17522e383377a4bbf64b61b73f7541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96714c9d48f91cac34554cdcd6405692') in 0.009557 seconds 
-  Import took 0.014049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Loft Office/Prefabs/Conference_Room_Doors.prefab
-  artifactKey: Guid(3be19d57401282d49be3e4f53e93ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Conference_Room_Doors.prefab using Guid(3be19d57401282d49be3e4f53e93ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6aba83129d915a37bbe69c906c7398') in 0.163296 seconds 
-  Import took 0.167398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Loft Office/Prefabs/Coffee_cup_2.prefab
-  artifactKey: Guid(0630ff90913240049b9793161e04221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Coffee_cup_2.prefab using Guid(0630ff90913240049b9793161e04221b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e2185298ee02ec9bb06ac049b6ddb2') in 0.015068 seconds 
-  Import took 0.019519 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Loft Office/Prefabs/Clock.prefab
-  artifactKey: Guid(b0ec88bb27b1a0a4c849e321a7758a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Clock.prefab using Guid(b0ec88bb27b1a0a4c849e321a7758a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e8f6352e974c215ce860c10b4d6273') in 0.009892 seconds 
-  Import took 0.014068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Loft Office/Prefabs/Coffee cup.prefab
-  artifactKey: Guid(56cc27f1c5450da4ebb0ff111856e3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Coffee cup.prefab using Guid(56cc27f1c5450da4ebb0ff111856e3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7def2c9a738d5d8f3d529fae239301d6') in 0.016093 seconds 
-  Import took 0.020845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Loft Office/Prefabs/Partition 4 1.prefab
-  artifactKey: Guid(337f2dc242bdba54da9c77a09765878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Partition 4 1.prefab using Guid(337f2dc242bdba54da9c77a09765878d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83c1fe3c0d6db82da0b7c83432e689d') in 0.009697 seconds 
-  Import took 0.013569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Loft Office/Prefabs/Table 2.prefab
-  artifactKey: Guid(99a3bdf7d3450474587827496483a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Table 2.prefab using Guid(99a3bdf7d3450474587827496483a248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a14c6a0aa5448f4090e8c22f3e0664') in 0.019826 seconds 
-  Import took 0.024683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Loft Office/Prefabs/Chair_3.prefab
-  artifactKey: Guid(cc3c0e086537b3744960d802134e00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Chair_3.prefab using Guid(cc3c0e086537b3744960d802134e00c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2220c07c5ec730c30b20e8b2b15f7e77') in 0.011976 seconds 
-  Import took 0.017112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_top_1m.prefab
-  artifactKey: Guid(e5714ac16ea21754384741e9cac57003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_top_1m.prefab using Guid(e5714ac16ea21754384741e9cac57003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad514bfef2b8b6a1c80fe8813812a0a') in 0.010994 seconds 
-  Import took 0.015676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_2mx20cm_Wood_Panels.prefab
-  artifactKey: Guid(00082d0e0a9363545b35c2e7fae5dae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_2mx20cm_Wood_Panels.prefab using Guid(00082d0e0a9363545b35c2e7fae5dae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3fa98faf020f310db6196bf79c397a') in 0.015694 seconds 
-  Import took 0.020862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_cupboard_60cm.prefab
-  artifactKey: Guid(01555f7e068a7054689a7838bb2ed074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_cupboard_60cm.prefab using Guid(01555f7e068a7054689a7838bb2ed074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2362bdf355c1f40bee1d5921613aae18') in 0.013149 seconds 
-  Import took 0.017561 seconds .
+  path: Assets/Loft Office/PostFX_Kitchen.asset
+  artifactKey: Guid(a100a92b0f106b94e8e5730bd213fd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/PostFX_Kitchen.asset using Guid(a100a92b0f106b94e8e5730bd213fd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7291761057810e22152b657d9dc53de4') in 0.002623 seconds 
+  Import took 0.005881 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000165 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_3mx20cm.prefab
-  artifactKey: Guid(2fd872082c89c0e4c9a8d8b822c081fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_3mx20cm.prefab using Guid(2fd872082c89c0e4c9a8d8b822c081fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa8a6f0e979dde1010ddabdfadd38ee') in 0.033461 seconds 
-  Import took 0.039282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Loft Office/Prefabs/Conference_table.prefab
-  artifactKey: Guid(6e4b507350ce9614dae0ac6aa1aa6776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Conference_table.prefab using Guid(6e4b507350ce9614dae0ac6aa1aa6776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e761c29eb9114b82cb7c8b776df5a80') in 0.011254 seconds 
-  Import took 0.015615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Loft Office/Prefabs/Coffee_table_2.prefab
-  artifactKey: Guid(09e8bebf685e115498dba0c7273aab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Coffee_table_2.prefab using Guid(09e8bebf685e115498dba0c7273aab1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f5449e08424b03d34915bc94adf4eb') in 0.011465 seconds 
-  Import took 0.015328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Loft Office/Prefabs/Monitor_2.prefab
-  artifactKey: Guid(e4ff1830f492a4245bc41e5391a5ccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Monitor_2.prefab using Guid(e4ff1830f492a4245bc41e5391a5ccda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dc57ddc1a4690aa04cc172b45db77c') in 0.011075 seconds 
-  Import took 0.014921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Loft Office/Prefabs/Partition_3.prefab
-  artifactKey: Guid(582bd670ea6892946984f1b2bfa3858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Partition_3.prefab using Guid(582bd670ea6892946984f1b2bfa3858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9244058f4480be98c389ddcfed217269') in 0.011254 seconds 
-  Import took 0.014949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Loft Office/Prefabs/Radiator.prefab
-  artifactKey: Guid(1f12ddc230b28da48b44101d7f95861c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Radiator.prefab using Guid(1f12ddc230b28da48b44101d7f95861c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b348c40d1585549fc96785d37e6f8bda') in 0.011795 seconds 
-  Import took 0.015455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_corner_60cm.prefab
-  artifactKey: Guid(51c774acf08e35f47b09c24f490be392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_corner_60cm.prefab using Guid(51c774acf08e35f47b09c24f490be392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106d9802f02d4add68886a941cde8387') in 0.015409 seconds 
-  Import took 0.020958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_1mx20cm.prefab
-  artifactKey: Guid(b4e2521d4b77dec408d10a1172144af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_1mx20cm.prefab using Guid(b4e2521d4b77dec408d10a1172144af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e7808547658698e68070e3b6aa6da9') in 0.038436 seconds 
-  Import took 0.044734 seconds .
+  path: Assets/First Person Controller.prefab
+  artifactKey: Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/First Person Controller.prefab using Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7d23126943f5c65bc19f482cadca1f') in 0.065361 seconds 
+  Import took 0.068837 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000179 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_top_60cm.prefab
-  artifactKey: Guid(21b8a045f13b91b4e95342c4b5f3fd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_top_60cm.prefab using Guid(21b8a045f13b91b4e95342c4b5f3fd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b246add9e390bed422fe95e7f5eeaf') in 0.009474 seconds 
-  Import took 0.014172 seconds .
+  path: Assets/First Person Controller Minimal.prefab
+  artifactKey: Guid(f2e0b7ae4dae8cf44955bccd3512b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/First Person Controller Minimal.prefab using Guid(f2e0b7ae4dae8cf44955bccd3512b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6528ac114767d987324ea3de0d282201') in 0.013841 seconds 
+  Import took 0.017132 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Loft Office/Prefabs/Stack_of_Books_2.prefab
-  artifactKey: Guid(b26b8ff9606a7944880d07e6a681b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Stack_of_Books_2.prefab using Guid(b26b8ff9606a7944880d07e6a681b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477002ce5b7187b14b0a9a3a7890db5b') in 0.014527 seconds 
-  Import took 0.018901 seconds .
+  Time since last request: 0.896956 seconds.
+  path: Assets/Readme.txt
+  artifactKey: Guid(b4d8032704dbfa44696c3cccc851d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.txt using Guid(b4d8032704dbfa44696c3cccc851d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7731685f9237e90d2705076a40769521') in 0.027728 seconds 
+  Import took 0.031431 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\git\Lychee_Prototype2\Lychee Prototype VR\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\git\Lychee_Prototype2\Lychee Prototype VR\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.7 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3270.
+Total: 3.260800 ms (FindLiveObjects: 0.289200 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.859500 ms  DeleteObjects: 0.027100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 186.752800 seconds.
+  path: Assets/kitchen.prefab
+  artifactKey: Guid(282fce8c24b3c584589deedbd589ef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen.prefab using Guid(282fce8c24b3c584589deedbd589ef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5b9584e236ba3e6b44d7f6b634cd79') in 0.238860 seconds 
+  Import took 0.250623 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_decor_4_black.prefab
-  artifactKey: Guid(16fb1addfd6140c43825640c9a9462a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_decor_4_black.prefab using Guid(16fb1addfd6140c43825640c9a9462a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece9508283b7adc00eefdf4cf4fcca71') in 0.010639 seconds 
-  Import took 0.015059 seconds .
+  Time since last request: 1.744865 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89743c6f43ae1e16026a46bfd67e3c4c') in 0.002582 seconds 
+  Import took 0.007027 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Loft Office/Prefabs/Plate_2.prefab
-  artifactKey: Guid(f451669b1642b8044b346e479254dad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Plate_2.prefab using Guid(f451669b1642b8044b346e479254dad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76c0d65db523ccc21a9d59ec82b9110') in 0.010640 seconds 
-  Import took 0.015298 seconds .
+  Time since last request: 1.028026 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688e118790a518878124c1de9049f876') in 0.003328 seconds 
+  Import took 0.007810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_table_2.4m.prefab
-  artifactKey: Guid(bc3af37280f2a8347a50b8e4916dd4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_table_2.4m.prefab using Guid(bc3af37280f2a8347a50b8e4916dd4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96948db9e6368aafc692e5f0c047a4fc') in 0.015630 seconds 
-  Import took 0.019446 seconds .
+  Time since last request: 121.415320 seconds.
+  path: Assets/XRRig.prefab
+  artifactKey: Guid(e580eae32e55e1743a0ca48dfe0c77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRRig.prefab using Guid(e580eae32e55e1743a0ca48dfe0c77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e61111040d1cde514e0d4a9aea9b9c6') in 0.020924 seconds 
+  Import took 0.026997 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Loft Office/Prefabs/Plate_1.prefab
-  artifactKey: Guid(53fffece9e430fb48810b4be2def2822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Plate_1.prefab using Guid(53fffece9e430fb48810b4be2def2822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0a69f1c064bfe4e4138b2692a70a35') in 0.012814 seconds 
-  Import took 0.017032 seconds .
+  Time since last request: 11.331160 seconds.
+  path: Assets/Scenes/1.unity
+  artifactKey: Guid(9263a595f18b5fb4ea77aff0224c9328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/1.unity using Guid(9263a595f18b5fb4ea77aff0224c9328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1badb695eee10f47355897d1887c94') in 0.608691 seconds 
+  Import took 0.616716 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Loft Office/Prefabs/Decor_02.prefab
-  artifactKey: Guid(0c59b45106234974bbad11d55d6b0a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Decor_02.prefab using Guid(0c59b45106234974bbad11d55d6b0a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df74b86d92456ccde02c47a62ea48d79') in 0.011184 seconds 
-  Import took 0.015112 seconds .
+  Time since last request: 321.986403 seconds.
+  path: Assets/Loft Office/Kitchen.unity
+  artifactKey: Guid(c5d3974864774074584c196d25458ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loft Office/Kitchen.unity using Guid(c5d3974864774074584c196d25458ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcf9de0949706e1cd9065e4f608c280') in 0.003060 seconds 
+  Import took 0.007288 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Loft Office/Prefabs/Point_Lamps.prefab
-  artifactKey: Guid(b13c14736d7de9946b3505fd849a35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Point_Lamps.prefab using Guid(b13c14736d7de9946b3505fd849a35bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4521b659c37e83c2622913d2b435fe') in 0.012117 seconds 
-  Import took 0.016322 seconds .
+  Time since last request: 137.787269 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77181d2fa5f565e2527c11c4bc02227b') in 0.002380 seconds 
+  Import took 0.006305 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Loft Office/Prefabs/Vase_4.prefab
-  artifactKey: Guid(012e38e784c0e0a4cb22ab5b7e8cc4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Vase_4.prefab using Guid(012e38e784c0e0a4cb22ab5b7e8cc4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e80a6a332e067cb0ff87b895f5dc3d') in 0.026412 seconds 
-  Import took 0.032758 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\git\Lychee_Prototype2\Lychee Prototype VR\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\git\Lychee_Prototype2\Lychee Prototype VR\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.0 MB.
+System memory in use after: 115.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3275.
+Total: 3.164800 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.076900 ms MarkObjects: 2.845500 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Loft Office/Prefabs/Plant_1.prefab
-  artifactKey: Guid(9c9861bb196a8e54ba5dec68f69c35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Plant_1.prefab using Guid(9c9861bb196a8e54ba5dec68f69c35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8280c5321853bd0b7494c19a9e2c2dd') in 0.172379 seconds 
-  Import took 0.176920 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.108488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.55 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\git\Lychee_Prototype2\Lychee Prototype VR\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\git\Lychee_Prototype2\Lychee Prototype VR\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_5mx40cm_Window.prefab
-  artifactKey: Guid(d46e26b1d7e9e4348aa16d095d725dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_5mx40cm_Window.prefab using Guid(d46e26b1d7e9e4348aa16d095d725dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51a466ff43fa7a9417d4294c34989f8') in 0.038251 seconds 
-  Import took 0.044898 seconds .
+Mono: successfully reloaded assembly
+- Completed reload, in  3.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3954ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (3312ms)
+			LoadAssemblies (398ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1076ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (1581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (450ms)
+				ProcessInitializeOnLoadAttributes (1026ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (57ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 19 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.1 MB.
+System memory in use after: 115.3 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Loft Office/Prefabs/Floor_Lamp.prefab
-  artifactKey: Guid(f927fbc31ebaf7c469ea90bcbc08234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Floor_Lamp.prefab using Guid(f927fbc31ebaf7c469ea90bcbc08234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075317c6dd7ca8b382cc036cd4008a01') in 0.012660 seconds 
-  Import took 0.017888 seconds .
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3278.
+Total: 3.182700 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.104500 ms MarkObjects: 2.828200 ms  DeleteObjects: 0.026500 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Loft Office/Prefabs/Plant_2.prefab
-  artifactKey: Guid(e87805427719c8d4aa2741f5759ab40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Plant_2.prefab using Guid(e87805427719c8d4aa2741f5759ab40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acc34f9a429eea6c094c23b5722d6a2') in 0.016092 seconds 
-  Import took 0.021223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Loft Office/Prefabs/Drawer.prefab
-  artifactKey: Guid(c60fa86d8d6accd4c8b9349dd58a19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Drawer.prefab using Guid(c60fa86d8d6accd4c8b9349dd58a19f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c7ca3271c0a835d5c3ab25a8783417') in 0.013179 seconds 
-  Import took 0.018734 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Loft Office/Prefabs/Table.prefab
-  artifactKey: Guid(90576df83986436458852061dfd79cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Table.prefab using Guid(90576df83986436458852061dfd79cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51635a7b92feec1eee3bb475e0daba9e') in 0.020732 seconds 
-  Import took 0.025081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Loft Office/Prefabs/Document case.prefab
-  artifactKey: Guid(4c014ce81d1de2c49aa4d89050b792db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Document case.prefab using Guid(4c014ce81d1de2c49aa4d89050b792db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71786a056c290a512917bd6df694da2') in 0.015231 seconds 
-  Import took 0.020155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Loft Office/Prefabs/Plant_4.prefab
-  artifactKey: Guid(83e5baf73be99b44fa045779b292adb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Plant_4.prefab using Guid(83e5baf73be99b44fa045779b292adb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9082c95120dd7b9eda39c603d7ca4a6') in 0.016369 seconds 
-  Import took 0.021045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Loft Office/Prefabs/Coffee_table_1.prefab
-  artifactKey: Guid(e8408bd6e1b82924e8283947f26d7172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Coffee_table_1.prefab using Guid(e8408bd6e1b82924e8283947f26d7172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8f7139c21d11f4a2c1d3e93acc9695') in 0.012710 seconds 
-  Import took 0.016993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Loft Office/Prefabs/Vase_5.prefab
-  artifactKey: Guid(5e3312299eabed646b9fe7f7746d0805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Vase_5.prefab using Guid(5e3312299eabed646b9fe7f7746d0805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4bfa108604ba664e36da442e12d2ec') in 0.025446 seconds 
-  Import took 0.031549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_3mx20cm_Wood_Panels.prefab
-  artifactKey: Guid(975c13cb9a40cca42a3bf668db207243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_3mx20cm_Wood_Panels.prefab using Guid(975c13cb9a40cca42a3bf668db207243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7802f8443e20889858f1a547f663eb1d') in 0.016481 seconds 
-  Import took 0.020591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Loft Office/Prefabs/Partition.prefab
-  artifactKey: Guid(d59f54ed702317043a6d5ca6cc6d42cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Partition.prefab using Guid(d59f54ed702317043a6d5ca6cc6d42cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1534be4da697a4fabf602c1925f67def') in 0.012857 seconds 
-  Import took 0.017174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Loft Office/Prefabs/Cooking surface.prefab
-  artifactKey: Guid(db188e7712f900e45a86589d96676445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Cooking surface.prefab using Guid(db188e7712f900e45a86589d96676445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058e2a2d266a6593e1fe0ae9044538f4') in 0.012472 seconds 
-  Import took 0.016313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Loft Office/Prefabs/Plant_3.prefab
-  artifactKey: Guid(1cc46c4726c797642a2d48cf7c7ada62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Plant_3.prefab using Guid(1cc46c4726c797642a2d48cf7c7ada62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c608769b13585497fd00abec415b6030') in 0.012551 seconds 
-  Import took 0.016980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Loft Office/Prefabs/Reception_table.prefab
-  artifactKey: Guid(417c84054abf0884d9f8dc3093150ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Reception_table.prefab using Guid(417c84054abf0884d9f8dc3093150ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f022cf3db3f0eccadf59ec710174e814') in 0.012211 seconds 
-  Import took 0.016124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Loft Office/Prefabs/Decor_03.prefab
-  artifactKey: Guid(b2797d38c32b22c4caee3536ad95aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Decor_03.prefab using Guid(b2797d38c32b22c4caee3536ad95aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86778684bc06bbb311eba29ae55e2d3') in 0.014232 seconds 
-  Import took 0.018912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Loft Office/Prefabs/Sofa 2.prefab
-  artifactKey: Guid(a59bf6369b6c8ad419887df43e354199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Sofa 2.prefab using Guid(a59bf6369b6c8ad419887df43e354199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dbadd6673894eefcc0e430f8f91381') in 0.035192 seconds 
-  Import took 0.041757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_top_shelf_50cm.prefab
-  artifactKey: Guid(03d20e6ed8747fd478502179756a6a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_top_shelf_50cm.prefab using Guid(03d20e6ed8747fd478502179756a6a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a5f671b15851f21329e73bfdf3fa9b') in 0.007784 seconds 
-  Import took 0.011085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Loft Office/Prefabs/Shelf_2.prefab
-  artifactKey: Guid(c7a71329c4cade443a51b9d25f9438b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Shelf_2.prefab using Guid(c7a71329c4cade443a51b9d25f9438b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f128bc11a8a8ee3c803702131686cdfb') in 0.008878 seconds 
-  Import took 0.012053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Loft Office/Prefabs/Kitchen_backside.prefab
-  artifactKey: Guid(e278ea6a0dd8ea842bb89d61cae8dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Kitchen_backside.prefab using Guid(e278ea6a0dd8ea842bb89d61cae8dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aecc19a10b7b55d752312f9c32ea918') in 0.007236 seconds 
-  Import took 0.010483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Loft Office/Prefabs/Wall_3mx20cm_Conference_Door.prefab
-  artifactKey: Guid(43f2b3e4d2c10c547b2a0a5415ab42c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Wall_3mx20cm_Conference_Door.prefab using Guid(43f2b3e4d2c10c547b2a0a5415ab42c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdd89b4302840814230cfb5a4df1c65') in 0.010358 seconds 
-  Import took 0.013696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.383990 seconds.
-  path: Assets/Loft Office/Prefabs/Armchair.prefab
-  artifactKey: Guid(b75bc3560016f244ca17db284a5a7124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Armchair.prefab using Guid(b75bc3560016f244ca17db284a5a7124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc14615de5e59e5618cafb58a752df7c') in 0.051703 seconds 
-  Import took 0.057628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Loft Office/Prefabs/Ceiling_Lamp.prefab
-  artifactKey: Guid(3b1e328912a420447ba6d1ab832487db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Ceiling_Lamp.prefab using Guid(3b1e328912a420447ba6d1ab832487db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4fd857475820537b7011b8511fd79') in 0.008427 seconds 
-  Import took 0.011885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Loft Office/Prefabs/Ceiling_3x3m.prefab
-  artifactKey: Guid(193c5f8d70986d4499aa8761483df64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Ceiling_3x3m.prefab using Guid(193c5f8d70986d4499aa8761483df64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d15a071960466534f1af7ccff9cfdb') in 0.033976 seconds 
-  Import took 0.038463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Loft Office/Prefabs/Blinds_1.prefab
-  artifactKey: Guid(d42e6de885813ba49b28e61bb37e5f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Blinds_1.prefab using Guid(d42e6de885813ba49b28e61bb37e5f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a37204b88ee85ea9cb4fb7748296b88') in 0.011968 seconds 
-  Import took 0.015366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Loft Office/Prefabs/Ceiling_Lamp_2.prefab
-  artifactKey: Guid(8f25ca3055c2c4d4d93fae123442a95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Ceiling_Lamp_2.prefab using Guid(8f25ca3055c2c4d4d93fae123442a95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf1b2f9a8009f7ac5e12879e5ded709') in 0.143828 seconds 
-  Import took 0.147381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Loft Office/Prefabs/Blinds_3.prefab
-  artifactKey: Guid(92a3001224e387a4faaf03e73224c642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Blinds_3.prefab using Guid(92a3001224e387a4faaf03e73224c642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b8057aa6a778924f69afe4243f1b10') in 0.011275 seconds 
-  Import took 0.014551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Loft Office/Prefabs/Chair_2.prefab
-  artifactKey: Guid(1566a6d29b0079748aa1bcc85d5aeb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Chair_2.prefab using Guid(1566a6d29b0079748aa1bcc85d5aeb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbbfed9e13149644112d2dc2778692f') in 0.012459 seconds 
-  Import took 0.016781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Loft Office/Prefabs/Chair_1.prefab
-  artifactKey: Guid(70b635d64464df24ba9f0583fd243a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Chair_1.prefab using Guid(70b635d64464df24ba9f0583fd243a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86453d674b4423b883985c95650b8a0') in 0.014011 seconds 
-  Import took 0.018700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Loft Office/Prefabs/Ceiling_log_3m.prefab
-  artifactKey: Guid(bf4744871799ce742882707303d2a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Ceiling_log_3m.prefab using Guid(bf4744871799ce742882707303d2a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b417e3d6110ce4ddb1e5f8a6dbe637e') in 0.009795 seconds 
-  Import took 0.014701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Loft Office/Prefabs/Blinds_2.prefab
-  artifactKey: Guid(c92dc4a5a6510f24387b3c62a3cb1809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Blinds_2.prefab using Guid(c92dc4a5a6510f24387b3c62a3cb1809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bcd7a9c61471a00bec53d63fe195eb') in 0.013805 seconds 
-  Import took 0.017841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Loft Office/Prefabs/Armchair_2.prefab
-  artifactKey: Guid(3aa26b7d7ba99af48a247d5f2180d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Loft Office/Prefabs/Armchair_2.prefab using Guid(3aa26b7d7ba99af48a247d5f2180d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c423e460e95a6f51a73ad83aaded8d0') in 0.034731 seconds 
-  Import took 0.040959 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
